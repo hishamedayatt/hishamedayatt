@@ -16,9 +16,8 @@ import visa from '../assets/visa.jpg'
 import { motion } from 'framer-motion'
 import {fedeIn} from '../motion'
 import check from '../assets/checkmark.png'
-import { services } from '../datas';
 import { useLocation, useNavigate } from "react-router-dom";
-
+import faqData from '../datas';
 
 
 
@@ -40,7 +39,7 @@ const Servicedetails = () => {
 
     const service = serviceData[id];
     
-   
+    const serviceFAQs = faqData.find((service) => service.id === parseInt(id))?.faqs;
 
   return (
     <div className='details'>
@@ -77,8 +76,8 @@ const Servicedetails = () => {
                 </ul>
             </motion.div>
       </div>
-      <div>
-        <Faq/>
+      <div >
+        <Faq data={serviceFAQs}/>
         <Title subTitle='Best Consulting Firm' title='The Best Choice For Your Successful Business!'/>
         <Whychoose/>
         <Title subTitle='Let’s Connect!' title='Let’s Build Your Business Together'/>
