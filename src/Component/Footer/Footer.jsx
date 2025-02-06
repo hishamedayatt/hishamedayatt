@@ -49,9 +49,9 @@ const Footer = () => {
           <div className='contact1'>
           
           <ul>
-           <a href="tel:++971 65346194"> <li className='list'><FaPhone /><p>+971 65346194</p></li></a>
-           <a href="mailto:bdassociatesfze@outlook.com"><li className='list'><FaEnvelope/><p>bdassociatesfze@outlook.com</p></li></a>
-            <a href="https://maps.app.goo.gl/bjzpp2EfDUW6noSx8"><li className='list'><FaLocationPin/><p>LOB2-Office No.F37 <br />Hamriyah Free Zone Sharja-UAE</p></li></a>
+           <a href="tel:++971 65346194"> <li className='list'><FaPhone className='ab' /><p>+971 65346194</p></li></a>
+           <a href="mailto:bdassociatesfze@outlook.com"><li className='list'><FaEnvelope className='ab'/><p>bdassociatesfze@outlook.com</p></li></a>
+            <a href="https://maps.app.goo.gl/bjzpp2EfDUW6noSx8"><li className='list'><FaLocationPin className='ab'/><p>LOB2-Office No.F37 <br /> Hamriyah Free Zone Sharja-UAE</p></li></a>
           </ul>
           </div>
           

@@ -48,19 +48,31 @@
   }
   .footer-section ul .list{
     font-size: 17px;
-    text-indent: 5px;
+    /* text-indent: 5px; */
     display: flex;
   }
   
   .footer-section ul {
     list-style: none;
     padding: 10px;
+    
   }
   
   .footer-section ul li {
     margin-bottom: 5px;
   }
-  
+  .footer-section ul li p{
+    margin-left: 5px;
+  }
+  .ab{
+    margin-top: 0px;
+    width: 35px;
+    height: 30px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 50%;
+  }
+
   .footer-section ul li a {
     color: #fff;
     text-decoration: none;
@@ -99,7 +111,7 @@
       width: 100%;
     }
   }
-  @media(max-width:400px){
+  @media(max-width:450px){
     .footer-logo {
       font-size: 16px;
     }
