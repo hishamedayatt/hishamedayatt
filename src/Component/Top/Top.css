@@ -5,9 +5,9 @@
     background: rgb(198, 65, 65);
     /* color: white; */
     border: none;
-    border-radius: 50%;
+    border-radius: 40%;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 23px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     z-index: 1000;
@@ -19,4 +19,12 @@
   }
 .top img{
     margin-top: 5px;
+    
+}
+@media(max-width:500px){
+    .top{
+        bottom: 25px;
+        right: 15px;
+    
+    }
 }

@@ -84,3 +84,16 @@
 
 
 }
+@media(min-width:2560px){
+    .about h2{
+      font-size: 42px;
+    }
+    .about p{
+        font-size: 25px;
+    }
+    .about h3{
+        font-size: 23px;
+    }
+  }
+
+

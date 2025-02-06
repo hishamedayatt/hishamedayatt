@@ -15,6 +15,7 @@ const Title = ({subTitle , title}) => {
         {/* <p>{subTitle}</p> */}
         <h3>{subTitle}</h3>
         <h2>{title}</h2>
+        <hr />
       
     </motion.div>
   )

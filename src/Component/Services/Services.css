@@ -66,6 +66,11 @@
       margin-left: 10px;
     }
   }
+  @media(min-width:2560px){
+    .service-grid{
+      gap: 8.5rem;
+    }
+  }
 
 
 

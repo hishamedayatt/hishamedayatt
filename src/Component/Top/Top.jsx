@@ -1,6 +1,6 @@
 import React,{ useState, useEffect } from 'react'
 import './Top.css'
-import { FaArrowUp } from 'react-icons/fa';
+import { FaArrowUp,FaChevronUp } from 'react-icons/fa';
 import up from '../../assets/up-arrow.png'
 
 const Top = () => {
@@ -30,7 +30,8 @@ const Top = () => {
         <button onClick={scrollToTop} className='top'
         >
           {/* <FaArrowUp style={{color:"black"}}/> */}
-          <img src={up} alt="" />
+          {/* <img src={up} alt="" /> */}
+          <FaChevronUp style={{color:"white"}}/>
         </button>
       )}
     </div>

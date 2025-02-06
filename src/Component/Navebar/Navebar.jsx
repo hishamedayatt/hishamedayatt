@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Navebar.css'
-import logo from '../../assets/LOGO12.png'
+import logo from '../../assets/lo.png'
 import menu_icon from '../../assets/menu-icon.png'
 import { Link } from 'react-scroll';
 import close from '../../assets/cross.png'
@@ -34,7 +34,7 @@ const Navebar = () => {
         <li><Link to='about' smooth={true} offset={-150} duration={500}>About us</Link></li>
         <li><Link to='service' smooth={true} offset={-260} duration={500}>Services</Link></li>
         <li><Link to='why-choose-us' smooth={true} offset={-260} duration={500}>Why Choose</Link></li>
-        <li><button className={`btn ${sticky ? 'btnn':''}`}><Link  to='contact' smooth={true} offset={-260} duration={500}>Contact us</Link></button></li>
+        <li><button className={`btn ${sticky ? 'btnn':''}`}><Link  to='contact' smooth={true} offset={-260} duration={500}>Connet us</Link></button></li>
         {/* <img src={close} onClick={colseMenu} alt="" className='menu-close' /> */}
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>

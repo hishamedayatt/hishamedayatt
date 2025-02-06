@@ -13,6 +13,8 @@ nav{
 }
 .logo{
     width: 180px;
+    margin-left: 50px;
+    margin-top: 5px;
 
 }
 .btnn{
@@ -100,4 +102,9 @@ nav ul li{
         left: 290px;
         width: 30px;
     } */
+}
+@media (max-width:1024px){
+    .logo{
+        margin-left: 0px;
+    }
 }
